@@ -1,0 +1,20 @@
+apply plugin:'java-library'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+
+repositories {
+    
+
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'org.glassfish.jersey.containers:jersey-container-servlet:2.25.1'
+    
+    testImplementation 'junit:junit:4.12'
+}
+

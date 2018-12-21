@@ -1,0 +1,21 @@
+apply plugin:'java-library'
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+
+repositories {
+    
+
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+  
+
+    
+    compile "com.sun.jersey:jersey-server:1.8"
+    testImplementation 'junit:junit:4.12'
+}
+

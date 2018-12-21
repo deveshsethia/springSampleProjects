@@ -1,0 +1,7 @@
+1542514416695	Rename package 'ActivityRepositoryStub'
+1542515024884	Extract interface 'ActivityRepository'
+1542515247089	Rename package 'ActivityRepository'
+1542550185876	Encapsulate field 'activityId'
+1542551572724	Copy package
+1542551588505	Delete elements
+1542552805697	Delete element
